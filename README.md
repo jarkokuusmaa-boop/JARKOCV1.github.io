@@ -4,49 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jarko CV</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/generatedAlbum.js"></script>
 
-  <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+  <script src="js/album.js"></script>
 
-  body {
-    display: flex;
-    justify-content: center;
-  }
-
- .cv-container {
-    text-align: center;     
-    max-width: 700px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    margin-top: 40px;        
-    margin-bottom: 40px;     
-  }
-
-  .header-image-container img {
-    width: 250px;
-    height: auto;
-    border-radius: 12px;
-    margin-bottom: 20px;
-  }
-
-  h1, h2 {
-    margin-bottom: 10px;
-  }
-
-  p {
-    margin: 4px 0;
-  }
-  </style>
 </head>
 <body>
 <div class="cv-wrapper">
   <div class="header-image-container">
-    <img src="images/portraits/example.jpg" alt="Jarko portrait">
+    <img src="images/portraits/Allalaaditud.jpg" alt="pic">
   </div>
 
   <div class="cv-container">
@@ -74,8 +41,6 @@
   <p>Word, PowerPoint, Excel, Fusion, SketchUp, TinkerCAD, PowerShell, WordPress, C.</p>
   <p>OS paigaldusoskus: suudan seadistada tööjaamadele Linux/BSD või Windows süsteeme.</p>
 
-  <script src="js/generatedAlbum.js"></script>
 
-  <script src="js/album.js"></script>
 </body>
 </html>
