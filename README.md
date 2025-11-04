@@ -1,34 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarko CV</title>
 
-</style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #555;
+      padding-bottom: 4px;
+      margin-top: 24px;
+    }
+
+    .header-image-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header-image-container img {
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+  </style>
+</head>
 <body>
-    <h2>Curriclum Vitae</h2>
-    <h2>Isikuandmed:</h2>
-    <p>Ees- ja perekonnanimi: Jarko</p>
-    <p>Sünni aeg: 14. August 2007</p>
-    <p>Aadress:	Tiigi</p>
-    <p>Telefon:	+372 5984 9854</p>
-    <p>E-mail:	jarko.kyysmaa@rak.ee</p>
-    <p>Perekonnaseis:</p>
-    <h2>Haridus:</h2>
-    <p>2013-2022 Vinni-Pajusti Gümnaasium põhikooli osana 1. - 9. klass</p>
-    <p>2023- Rakvere Ametikool – IT-süsteemide nooremspetsialist õppe</p>
-    <h2>Töökogemus:</h2>
-    <p>17.02.2025 – 11.05.2025 Praktika Rakvere IT-Shopis</p>
-    <h2>Keeleoskus:</h2>
-    <p>Eesti keel: Emakeel(C2)</p>
-    <p>Vene keel: Kõnes nõrk(A2), kirjas nõrk (A2) õppisin koolis 3 aastat.</p>
-    <p>Inglise keel: Kõnes väga hea (C1), kirjas hea (C1) mõistmine (C1) õppisin 8 aastat</p>
-    <p>Keeleoskuse lisainfo: Inglise- ja eesti keele igapäevane kasutaja</p>
-    <h2>IT-alalised oskused:</h2>
-    <p>Arvutioskus: Word, Powerpoint, Excel, Fusion, Sketchup, TinkerCAD,Powershell, WordPress, C.</p>
-    <p>OS paiagldus oskused: Paigaldada ja seadistada tööjaamadele Linux/BSD või Windows operatsioonisüsteeme, järgides parimaid praktikaid.</p>
+
+  <h1>Curriculum Vitae</h1>
+
+  <div class="header-image-container">
+    <img src="images/portraits/example.jpg" alt="Jarko portrait">
+  </div>
+
+  <h2>Isikuandmed:</h2>
+  <p>Ees- ja perekonnanimi: Jarko</p>
+  <p>Sünni aeg: 14. August 2007</p>
+  <p>Aadress: Tiigi</p>
+  <p>Telefon: +372 5984 9854</p>
+  <p>E-mail: jarko.kyysmaa@rak.ee</p>
+
+  <h2>Haridus:</h2>
+  <p>2013–2022 Vinni-Pajusti Gümnaasium põhikooli osana (1.–9. klass)</p>
+  <p>2023– Rakvere Ametikool – IT-süsteemide nooremspetsialist</p>
+
+  <h2>Töökogemus:</h2>
+  <p>17.02.2025 – 11.05.2025 Praktika Rakvere IT-Shopis</p>
+
+  <h2>Keeleoskus:</h2>
+  <p>Eesti keel: Emakeel (C2)</p>
+  <p>Vene keel: Kõnes nõrk (A2), kirjas nõrk (A2)</p>
+  <p>Inglise keel: Kõnes väga hea (C1), kirjas hea (C1), mõistmine (C1)</p>
+
+  <h2>IT-alased oskused:</h2>
+  <p>Word, PowerPoint, Excel, Fusion, SketchUp, TinkerCAD, PowerShell, WordPress, C.</p>
+  <p>OS paigaldusoskus: suudan seadistada tööjaamadele Linux/BSD või Windows süsteeme.</p>
+
+  <script src="js/generatedAlbum.js"></script>
+
+  <script src="js/album.js"></script>
 </body>
 </html>
