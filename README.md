@@ -6,43 +6,51 @@
   <title>Jarko CV</title>
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      margin: 40px;
-      line-height: 1.6;
-    }
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
 
-    h2 {
-      color: #333;
-      border-bottom: 2px solid #555;
-      padding-bottom: 4px;
-      margin-top: 24px;
-    }
+  body {
+    display: flex;
+    justify-content: center;
+  }
 
-    .header-image-container {
-      text-align: center;
-      margin-bottom: 30px;
-    }
+ .cv-container {
+    text-align: center;     
+    max-width: 700px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 40px;        
+    margin-bottom: 40px;     
+  }
 
-    .header-image-container img {
-      width: 250px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-      transition: opacity 0.3s ease;
-    }
+  .header-image-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 4px 0;
+  }
   </style>
 </head>
 <body>
-
-  <h1>Curriculum Vitae</h1>
-
+<div class="cv-wrapper">
   <div class="header-image-container">
     <img src="images/portraits/example.jpg" alt="Jarko portrait">
   </div>
 
+  <div class="cv-container">
+    <h1>Curriculum Vitae</h1>
   <h2>Isikuandmed:</h2>
   <p>Ees- ja perekonnanimi: Jarko</p>
   <p>Sünni aeg: 14. August 2007</p>
