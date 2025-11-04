@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="et">
 <head>
   <meta charset="UTF-8">
@@ -40,7 +39,3 @@
   <h2>IT-alased oskused:</h2>
   <p>Word, PowerPoint, Excel, Fusion, SketchUp, TinkerCAD, PowerShell, WordPress, C.</p>
   <p>OS paigaldusoskus: suudan seadistada tööjaamadele Linux/BSD või Windows süsteeme.</p>
-
-
-</body>
-</html>
